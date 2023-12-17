@@ -1,0 +1,9 @@
+@number = "1111111111"
+
+PUT http://localhost:3001/api/persons/657f36cb9730cf3b4cfd6eb6
+Content-Type: application/json
+
+{
+    "name":"Harry I",
+    "number": {{number}}
+}
